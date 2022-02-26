@@ -1,1 +1,23 @@
 
+package week1.day1;
+
+public class SumofDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  int inpNum = 334;
+  int sum = 0;
+  while(inpNum > 0) {
+	  int rem = (inpNum%10);
+	 sum = (rem + sum);
+	 inpNum = (inpNum/10);
+  }
+  System.out.println(sum);
+  }
+	}
+
+
+
+
+
+
